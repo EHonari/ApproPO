@@ -13,7 +13,7 @@ random.seed(RANDOM_SEED)
 
 def appropo_args(parser):
     # Solver
-    parser.add_argument("--num_epochs", type=int, default=30)
+    parser.add_argument("--num_epochs", type=int, default=100)
     parser.add_argument("--cache_size", type=int, default=5)
     parser.add_argument('--output', type=str, default='results')
     parser.add_argument('--print', default=False, action='store_true')
